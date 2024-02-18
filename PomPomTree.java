@@ -34,7 +34,7 @@ public class PomPomTree extends Application {
     	PomPom white = new PomPom(255, 255, 255, "white");
     	PomPom amour = new PomPom(239, 205, 239, "amour");
     	PomPom mineralGreen = new PomPom(59, 99, 82, "mineral green");
-    	PomPom primrose = new PomPom(226, 239, 163, "primrose");
+    	PomPom primrose = new PomPom(100, 239, 163, "primrose");
     	PomPom java = new PomPom(25, 176, 190, "java");
     	PomPom brightTurquoise = new PomPom(30, 227, 241, "bright turquoise");
     	PomPom casal = new PomPom(44, 94, 99, "casal");
@@ -44,20 +44,20 @@ public class PomPomTree extends Application {
     	
     	bst = new BST();
     	
-    	bst.insert(thunderbird);
+    	bst.insert(mahogany);
     	bst.insert(brightTurquoise);
     	bst.insert(casal);
+    	bst.insert(primrose);
     	bst.insert(amour);
-    	bst.insert(white);
+    	bst.insert(java);
     	bst.insert(cerise);
-    	bst.insert(mahogany);
+    	bst.insert(thunderbird);
     	bst.insert(persianBlue);
     	bst.insert(mineralGreen);
     	bst.insert(tango);
     	bst.insert(cardinal);
-    	bst.insert(java);
-    	bst.insert(primrose);
     	bst.insert(redRibbon);
+    	bst.insert(white);
     	
     	int radius = 25;
         // Build the binary search tree
